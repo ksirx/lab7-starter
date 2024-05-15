@@ -1,6 +1,8 @@
 # Lab 7 - Starter
 
+NAME: Xavier Navarro
 
+LINK TO PAGE: https://ksirx.github.io/lab7-starter/
 
 easy add to local
 
