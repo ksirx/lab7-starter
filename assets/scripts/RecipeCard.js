@@ -142,8 +142,7 @@ class RecipeCard extends HTMLElement {
 		//           Remember to replace all the placeholders in the template with the data passed in.
 		//           i.e. imgSrc, titleLnk, etc
 
-		article.textContent = `
-		  	<article>
+		article.innerHTML = `
 			<img src="${data.imgSrc}"
 		  	  alt="${data.imgAlt}">
 			<p class="title">
@@ -159,7 +158,6 @@ class RecipeCard extends HTMLElement {
 			<p class="ingredients">
 		  		${data.ingredients}
 			</p>
-	  	  	</article>
 		`;
 
 	}

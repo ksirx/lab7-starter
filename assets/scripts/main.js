@@ -128,7 +128,7 @@ function initFormHandler() {
 
 		// B10. TODO - Get a reference to the "Clear Local Storage" button
 
-		const cls = document.getElementsByClassName('danger');
+		const cls = document.querySelector('button.danger');
 
 		// B11. TODO - Add a click event listener to clear local storage button
 
@@ -139,9 +139,9 @@ function initFormHandler() {
 			localStorage.clear();
 
 			// B13. TODO - Delete the contents of <main>
-			while (main.childElementCount != 0) {
-				main.removeChild(main.firstChild);
-			}
+
+			const main = document.querySelector('main');
+			main.innerHTML = '';
 		});
 	});
 }
