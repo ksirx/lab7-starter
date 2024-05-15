@@ -143,7 +143,7 @@ class RecipeCard extends HTMLElement {
 		//           i.e. imgSrc, titleLnk, etc
 
 		article.textContent = `
-			<article>
+		  	<article>
 			<img src="${data.imgSrc}"
 		  	  alt="${data.imgAlt}">
 			<p class="title">
@@ -159,7 +159,7 @@ class RecipeCard extends HTMLElement {
 			<p class="ingredients">
 		  		${data.ingredients}
 			</p>
-	  </article>
+	  	  	</article>
 		`;
 
 	}
