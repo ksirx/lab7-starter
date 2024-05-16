@@ -1,6 +1,9 @@
-/* main.css */
+/* rewrite.css */
 
-* {
+/*Rewrite the CSS to use CSS variables whenever it makes sense*/
+
+/* Commenting out the original css file*/
+/* * {
     font-family: sans-serif;
   }
   
@@ -56,3 +59,5 @@
   .hidden {
     display: none;
   }
+*/
+
